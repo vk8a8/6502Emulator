@@ -1,6 +1,7 @@
 #pragma once
 #include <cstdio>
 #include <cstdlib>
+#include <cstdint>
 
 // http://www.obelisk.me.uk/6502/
 
