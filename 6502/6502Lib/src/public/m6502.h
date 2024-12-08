@@ -1,17 +1,17 @@
 #pragma once
-#include <stdio.h>
-#include <stdlib.h>
+#include <cstdio>
+#include <cstdlib>
 
 // http://www.obelisk.me.uk/6502/
 
 namespace m6502
 {
-	using SByte = char;
-	using Byte = unsigned char;
-	using Word = unsigned short;
+	using SByte = int8_t;
+	using Byte = uint8_t;
+	using Word = uint16_t;
 
-	using u32 = unsigned int;
-	using s32 = signed int;
+	using u32 = uint32_t;
+	using s32 = int32_t;
 
 	struct Mem;
 	struct CPU;
